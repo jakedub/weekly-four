@@ -1,0 +1,62 @@
+audio {
+  width: 30%;
+}
+
+body {
+  background-color: #DCDCDC;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+img {
+  margin: 0 30px;
+}
+
+.artistName {
+  font-size: 0.8em;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.songName {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.tile {
+  width: 160px;
+}
+
+#audioContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#searchBar {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#searchBarContainer {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+#searchResultsContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#searchField {
+  flex-basis: 50%;
+}

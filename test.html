@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iTunes Searchy Thingy</title>
+    <link rel='stylesheet' type='text/css' href='test.css'>
+  </head>
+  <body>
+    <header>
+      <h1>iTunes, So You Don't Have To</h1>
+      <div id='audioContainer'>
+        <!-- <audio controls> -->
+        <!-- <source src="" type="audio/mpeg"> -->
+        <!-- <source src="" type="audio/ogg"> -->
+        <!-- </audio> -->
+        <audio id='audioPlayer' controls='' autoplay='' name='media'>
+          <source src='' type='audio/mp4'>
+        </audio>
+      </div>
+      <hr>
+      <div id="searchBarContainer">
+        <div id="searchBar">
+          <input type="search" id="searchField" onkeypress="checkForSubmission()" placeholder="Search for an artist">
+          <input type="button" onclick="encodeQuery()" id="searchButton" value="Search">
+        </div>
+      </div>
+      <hr>
+    </header>
+    <div id="searchResultsContainer">
+      <!-- insert search results here -->
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>
